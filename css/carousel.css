@@ -11,7 +11,7 @@ body {
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
-.navbar-inverse {
+.navbar-inverse.navbar-static-top {
     background: none;
     border: none;
 }
@@ -33,9 +33,6 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -114,10 +111,6 @@ body {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
