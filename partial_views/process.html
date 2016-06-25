@@ -1,0 +1,8 @@
+<div class="row">
+    <div ng-repeat="item in msg.process" class="col-lg-3 text-center">
+        <img class="img-circle" ng-src="{{item.image}}" alt="Generic placeholder image" width="140" height="140">
+        <h3 ng-bind-html="item.header | unsafe"></h3>
+        <p ng-bind-html="item.description | unsafe"></p>
+        <p ng-bind-html="item.tagline | unsafe"></p>
+    </div>
+</div>

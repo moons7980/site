@@ -1,29 +1,4 @@
 <div class="container marketing">
     <h1 id="about">About Us</h1>
-    <p>
-        We are an emerging software solutions company that build, deliver and maintains fully custom-built solution based on your
-        unique business needs. We consist of a team of passionate and professional web developers who love technology and
-        everything that is digital. We believe in creativity, innovation and excellence to build and deliver the solution
-        with the strong focus on customer service and user experience. We have several years of Web Development experience
-        achieved through working on highly complex projects with passion, creativity and our ability to think outside-the-box
-        while solving problems. We want to achieve the success in our business by fair business values. We put ourselves
-        into our client’s position and provide the kind of service that we would expect as fees paying customers.
-    </p>
-
-    <h1>
-        Why choose asensitive
-    </h1>
-    <p>
-        At asensitive, we provide custom web solutions that are built with the core objective of enabling you performing your business
-        more efficiently. We help you solving your technology problems that might be slowing down the growth of your business
-        or stopping your business achieve the success it deserves. We carefully listen to you in order to understand the
-        issues your business is facing then analyze the issue and present a solution to you. With the solution, we also develop
-        strong relationships with our clients.
-    </p>
-    <p>
-        At asensitive, all the development and support is done locally giving you peace of mind without worrying about outsourcing
-        nightmares. We thrive to use the latest and more importantly future proof technology to develop your solution to
-        achieve high degree of maintainability and extensibility for your website solutions, applications and services. We
-        are always here to convert your thoughts into ideas and transform your business to be ready for the digital world.
-    </p>
+    <p ng-repeat="item in msg.about" ng-bind-html="item.description | unsafe"></p>
 </div>

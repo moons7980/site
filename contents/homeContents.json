@@ -1,0 +1,73 @@
+{
+    "scrollBar": [
+        {
+            "header": "ADVANCED SOLUTIONS FOR A DIGITAL WORLD",
+            "description": "We produce advanced solutions that help your business grow and form strong relationships with your customers.",
+            "image": "images/sliding-banner1.jpg",
+            "activeClass": "item active",
+            "sliderClass": "first-slide"
+        },
+        {
+            "header": "SENSITIVE SOLUTIONS FOR DYNAMIC NEEDS",
+            "description": "We provide sensitive, innovative and sensible solutions that are purely focused on your needs and business domain.",
+            "image": "images/sliding-banner2.jpg",
+            "activeClass": "item",
+            "sliderClass": "second-slide"
+        },
+        {
+            "header": "CUSTOM WEB DEVELOPMENT UNIQUE NEEDS",
+            "description": "We design and develop your custom Web Solutions and support it to help you run your business efficiently.",
+            "image": "images/sliding-banner3.jpg",
+            "activeClass": "item",
+            "sliderClass": "third-slide"
+        }
+    ],
+    "features": [
+        {
+            "header": "Affordable Solutions",
+            "description": "We can provide you a fully custom-built solution based on your unique operational requirements. Buying and installing “off the shelf” software or application may be suitable for many of your software related requirements. However, for the requirement with higher complexity, custom software development is over and over again the optimal solution. We can help businesses of different sizes build their digital solution within budget including a small owner-operators’ business.",
+            "image": "images/content-feature1.jpg"
+        },
+        {
+            "header": "Build Relationships",
+            "description": "One of our core motives is to establish strong long-term businesses relationships with our clients. We want to manage these relationships in friendly and professional manner by providing the highest level of customer satisfaction to achieve the success in the business. We want to win trust of our clients of all type and size, by providing strategic advice at the right time together with software solution to grow and expand their business locally and/or globally.",
+            "image": "images/content-feature2.jpg"
+        },
+        {
+            "header": "Quick Response",
+            "description": "We value the value of time. We always try to utilise time without degrading the quality of work. We understand the criticality of your project therefore always try to make the best effort to deliver in the best possible time by using the right tools and following the best practice with creative thinking. We are capable of taking healing actions to reduce the damage to your business in case your business gets off track with the existing systems or current technology.",
+            "image": "images/content-feature3.jpg"
+        },
+        {
+            "header": "Technically Advanced",
+            "description": "We have the required technical skills along with business knowledge and we are capable of coping with the dynamic requirements for reliable, maintainable, extensible and robust software solutions that effectively enhance efficiency to stay up to date in market.",
+            "image": "images/content-feature4.jpg"
+        }
+    ],
+    "process": [
+        {
+            "header": "Arrange",
+            "description": "We can kick start the development process with our free initial consultation to discuss your business and technical requirements. We use friendly yet professional level consulting to understand your business processes.",
+            "tagline": "We can <i>arrange</i> free initial consultation",
+            "image": "images/process-tile1.png"
+        },
+        {
+            "header": "Analyze",
+            "description": "We do careful analysis to prepare a description of the software system to be developed to effectively streamline your business operations digitally and ensure that your solution is at cutting edge of emerging technology.",
+            "tagline": "We can analyse strategic requirements",
+            "image": "images/process-tile2.png"
+        },
+        {
+            "header": "Act",
+            "description": "So it’s time to Act and give your project shape. We create tailored Software Development Solutions and Services based on our in-depth analysis. We use industry standard tools and technologies to implement the Solutions.",
+            "tagline": "We can act fast to meet deadlines",
+            "image": "images/process-tile3.png"
+        },
+        {
+            "header": "Assert",
+            "description": "We test the developed solution rigorously using different testing techniques. We make sure that the software is functioning according to the functional specifications and performing all operations in an efficient manner.",
+            "tagline": "We can assert support and maintenance",
+            "image": "images/process-tile4.png"
+        }
+    ]
+}

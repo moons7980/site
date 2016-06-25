@@ -1,8 +1,11 @@
 angular.module('services', [])
     .factory('AppServices', function ($http) {
         return {
-            get: function () {
-                return $http.get('/contents/contents.json');
+            getHomeContents: function () {
+                return $http.get('/contents/homeContents.json');
+            },
+            getAboutContents: function () {
+                return $http.get('/contents/aboutContents.json');
             }
         };
     });

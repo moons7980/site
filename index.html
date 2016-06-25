@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="en" ng-app="mainApp">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,45 +17,26 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <base href="/" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
-
-<body ng-controller="indexController">
-
-    <div ng-include src="'templates/navbar.html'"></div>
-    <div ng-include src="'templates/carousel.html'"></div>
-
+<body ng-controller="homeController">
+    <div ng-include src="'partial_views/navbar.html'"></div>
+    <div ng-include src="'partial_views/carousel.html'"></div>
     <div class="container marketing">
-
-        <div ng-include src="'templates/process.html'"></div>
-        <div ng-include src="'templates/features.html'"></div>
-        <div ng-include src="'templates/footer.html'"></div>
-
+        <ng-view> </ng-view>
+        <hr class="featurette-divider">
+        <div ng-include src="'../partial_views/footer.html'"></div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
     <script src="app/app.js"></script>
     <script src="app/services.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-        $(document).ready(function () {
-
-            var origOffsetY = $('.navbar').offset().top;
-
-            function scroll() {
-                if ($(window).scrollTop() >= origOffsetY) {
-                    $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
-                } else {
-                    $('.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
-                }
-            }
-            document.onscroll = scroll;
-        });
-        </script>
 </body>
 
 </html>

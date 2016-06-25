@@ -1,0 +1,45 @@
+<div class="container marketing">
+    <form>
+        <div class="col-sm-6" style="padding-left: 0px; padding-bottom: 0px;">
+            <div class="form-group">
+                <div class="form-label">
+                    <label for="Name_">Name*</label>
+                </div>
+                <input data-val="true" data-val-length="Name should not exceed 255 characters" data-val-length-max="255" data-val-required="Please provide your name."
+                    id="FullName" name="FullName" style="height:50px; width:98%; margin-bottom: 10px;" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="FullName" data-valmsg-replace="true"></span>
+                <br />
+                <div class="form-label">
+                    <label for="Email_">Email*</label>
+                </div>
+                <input data-val="true" data-val-length="Email should not exceed 255 characters" data-val-length-max="255" data-val-regex="Email should be a valid Email address"
+                    data-val-regex-pattern="^[_A-Za-z0-9-]+(.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(.[A-Za-z0-9-]+)*(.[A-Za-z]{2,4})$"
+                    data-val-required="Please provide your email address." id="Email" name="Email" style="height:50px; width:98%; margin-bottom: 10px;"
+                    type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                <br />
+                <div class="form-label">
+                    <label for="Phone_">Phone*</label>
+                </div>
+                <input data-val="true" data-val-length="Phone should not exceed 50 characters" data-val-length-max="50" data-val-required="Please provide your phone."
+                    id="Phone" name="Phone" style="height:50px; width:98%; margin-bottom: 10px;" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+        <div class="col-sm-6" style="padding-left: 0px; padding-bottom: 0px;">
+            <div class="form-group">
+                <div class="form-label">
+                    <label for="Message_">Message*</label>
+                </div>
+                <textarea cols="20" data-val="true" data-val-length="Message should not exceed 1000 characters" data-val-length-max="1000"
+                    data-val-required="Please enter your message." id="Message" name="Message" rows="2" style="height:220px; width:100%;">
+                </textarea>
+                <span class="field-validation-valid" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+        <div class="col-sm-6" id="g-recapture"></div>
+        <div class="col-sm-12" style="padding-left: 0px; padding-bottom: 0px;">
+            <input type="submit" value="Send" class="btn btn-default" />
+        </div>
+    </form>
+</div>

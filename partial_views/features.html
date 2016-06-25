@@ -1,0 +1,12 @@
+<div data-ng-repeat="item in msg.features">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div ng-class-odd="'col-md-7'" ng-class-even="'col-md-7 col-md-push-5'">
+            <h2 class="featurette-heading" ng-bind-html="item.header | unsafe"></h2>
+            <p class="lead" ng-bind-html="item.description | unsafe"></p>
+        </div>
+        <div ng-class-odd="'col-md-5'" ng-class-even="'col-md-5 col-md-pull-7'">
+            <img class="featurette-image img-responsive center-block" ng-src="{{item.image}}" alt="Generic placeholder image">
+        </div>
+    </div>
+</div>

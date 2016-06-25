@@ -9,10 +9,8 @@
             <img class="{{item.sliderClass}}" ng-src="{{item.image}}" alt="First slide">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>{{item.header}}</h1>
-                    <p>{{item.description}}
-                    </p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    <h1 ng-bind-html="item.header | unsafe"></h1>
+                    <p ng-bind-html="item.description | unsafe"></p>
                 </div>
             </div>
         </div>
